@@ -1,5 +1,52 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-valyala-bytebufferpool (1.0.0-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.6.1, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 01:26:57 +0000
+
+golang-github-valyala-bytebufferpool (1.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+
+  [ Nobuhiro Iwamatsu ]
+  * Bump debhelper to 13.
+  * Update Standards-Version to 4.5.1 (no change needed).
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 17 Dec 2020 16:07:56 +0900
+
+golang-github-valyala-bytebufferpool (1.0.0-1) unstable; urgency=medium
+
+  * New upstream version 1.0.0 (identical to 0.0~git20160817.0.e746df9)
+  * Apply "cme fix dpkg" fixes:
+    - Update debhelper dependency to "Build-Depends: debhelper-compat (= 12)"
+    - Bump Standards-Version to 4.4.1 (no change)
+  * Add "Rules-Requires-Root: no" to debian/control
+  * Update Maintainer email address to team+pkg-go@tracker.debian.org
+  * Add myself to the list of Uploaders
+  * debian/gbp.conf: Set debian-branch to debian/sid for DEP-14 conformance
+
+ -- Anthony Fok <foka@debian.org>  Mon, 02 Dec 2019 22:35:52 -0700
+
+golang-github-valyala-bytebufferpool (0.0~git20160817.0.e746df9-3) unstable; urgency=medium
+
+  [Jelmer Vernooĳ]
+  * Change priority extra to priority optional.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 30 Nov 2018 08:45:05 +0900
+
+golang-github-valyala-bytebufferpool (0.0~git20160817.0.e746df9-2) unstable; urgency=medium
+
+  * Point Vcs-* urls to salsa.debian.org.
+  * Add debian/gitlab-ci.yml.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 18 Apr 2018 08:02:46 +0900
+
+golang-github-valyala-bytebufferpool (0.0~git20160817.0.e746df9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #875262)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 07 Sep 2017 08:53:14 +0900
